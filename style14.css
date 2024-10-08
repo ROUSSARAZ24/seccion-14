@@ -7,10 +7,10 @@ header{
     background-color: #333;
     color:white;
     padding: 1em 0;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    position: fixed;
 
 }
 nav{
@@ -39,6 +39,14 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: #555;
+}
+#nav-toggle{
+    display: none;
+    background: none;
+    border: none;
+    color:white;
+    font-size: 1,5em;
+    cursor: pointer;
 }
 #home{
     height: 100vh;
@@ -83,11 +91,4 @@ main{
     display: flex;
     }
 }
-    #nav-toggle{
-        display: none;
-        background: none;
-        border: none;
-        color:white;
-        font-size: 1,5em;
-        cursor: pointer;
-    }
+   
