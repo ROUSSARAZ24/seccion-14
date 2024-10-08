@@ -38,7 +38,7 @@ nav ul li a{
     padding: 0,5em 1em;
 }
 nav ul li a:hover{
-    background-color: #6abcff;
+    background-color: #0c64ac;
 }
 #nav-toggle{
     display: none;
