@@ -82,12 +82,12 @@ main{
     .nav-open ul {
     display: flex;
     }
-    }
+}
     #nav-toggle{
         display: none;
         background: none;
         border: none;
         color:white;
-        font-size: 1,5em;
+        font-size: 1.5em;
         cursor: pointer;
     }
